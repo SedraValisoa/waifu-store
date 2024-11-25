@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+:root{
+    --colorP : #494949;
+    --sizeH : 1.6rem;
+    --colorH :rgb(95, 47, 3);
+}
+body{
+    height: 10% 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:beige;
+    margin: 0;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+.main{
+    height:10px 100vh;
+    width: 50vw;
+    margin: 10px;
+    padding: 20px;
+    background: #fffff3;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+.main img{
+    width: 100%;
+    border-radius: 10px;
+}
+.main .theme h1{
+    font-weight:var(--sizeH);
+    color: var(--colorH);
+}
+.main .theme p{
+    font-weight: 300;
+    margin: 10px;
+    color: var(--colorP);
+}
+.main .preparation{
+    display: flex;
+    background: pink;
+    width: 96%;
+    padding: 0 10px ;
+    margin: 0 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    border-radius: 10px;
+}
+.main .preparation h3{
+    color:rgb(143, 93, 132);
+    font-weight: bold;
+    margin: 10px 0 20px 50px
+}
+.main .preparation ul{
+    margin: 0px 50px;
+    gap: 10px;
+}
+
+.main .preparation li{
+    color: var(--colorP);
+    padding: 0 5px 10px 50px;
+}
+.main .ingrediant{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 20px 50px;
+    flex-direction: column;
+}
+.main .ingrediant h3{
+    color:var(--colorH);
+    font-size: var(--sizeH);
+    font-weight: bold;
+    margin: 20px;
+}
+.main .ingrediant ul{
+   margin: 0px 50px;
+    gap: 10px;
+}
+
+.main .ingrediant li{
+    color:  var(--colorP);
+    padding: 0 5px 10px 50px;
+
+}
+.main .instruction{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 20px 50px;
+    flex-direction: column;
+
+}
+.main .instruction::before{
+    content: "";
+    height: 1px;
+    width: 100%;
+    background:var(--colorP);
+}
+.main .instruction::after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    background:var(--colorP);
+}
+.main .instruction h3{
+    color:var(--colorH);
+    font-size: var(--sizeH);
+    font-weight: bold;
+    margin: 20px;
+}
+.main .instruction ol li{
+    color:  var(--colorP);
+    padding: 0 5px 10px 50px;
+}
+span{
+    color: var(--colorH);
+    font-weight: bold;
+}
+.main .nutrition{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 20px 50px;
+    flex-direction: column;
+
+}
+.main .nutrition h3{
+    color:var(--colorH);
+    font-size: var(--sizeH);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.main .nutrition p,table{
+    font-weight: normal;
+    margin: 10px;
+    color: var(--colorP);
+}
+.donnee{
+    color: var(--colorH);
+    font-weight: 400;
+}
+::marker{
+    color: var(--colorH);
+}
+td{
+    border-bottom: 1px solid #494949;
+}
+table{
+    table-layout: auto;
+    border-collapse: collapse;
+    border-color: var(--colorH);
+    width: calc(100%-50px);
+    
+}
