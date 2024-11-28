@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=star"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_bag"
+    />
+    <link rel="icon" href="./img/icons8-hiragana-no-100.png" type="image.gif" />
+    <title>Waifu store</title>
+  </head>
+  <body>
+    <!------------------ nav bar , header ---------------------------->
+    <header>
+      <section class="nav-bar">
+        <div class="logo">
+          <h5 id="logo-text" class="ti">
+            <video
+              class="sparkel"
+              src="./img/sparkel.webm"
+              muted
+              autoplay
+              loop
+            ></video>
+            <a class="link-2" href="./index.html">Waifu Store</a>
+          </h5>
+        </div>
+        <div class="items">
+          <ul class="group">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" data-txt="Hot">Edition limité</a></li>
+            <li><a href="#">Nouveauté</a></li>
+            <li><a href="#">Animé</a></li>
+            <li><a href="#">Catégories</a></li>
+            <li>
+              <button id="cart">
+                <span
+                  class="material-symbols-outlined"
+                  data-icon="shopping_bag"
+                >
+                </span
+                >Panier
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <!---------------- section Home ------------------->
+    <main>
+      <div class="search-items">
+        <label for="search-bar"
+          ><ion-icon class="search" name="search-outline"></ion-icon
+        ></label>
+        <input
+          type="text"
+          name="search"
+          id="search-bar"
+          placeholder="Search..."
+        />
+        <ion-icon class="search delete" name="close-outline"></ion-icon>
+      </div>
+
+      <section id="product" class="conteiner">
+        <div class="best-product">
+          <div class="our-product">
+            <div class="div-h2">
+              <h2>La boutique des passionnés d'anime en tout genre</h2>
+            </div>
+          </div>
+          <!-- ------------- NOUVEAUTE DIVISION --------------------- -->
+          <div class="new">
+            <h2>Nouveauté</h2>
+            <div class="article-conteiner2">
+              <div class="grid-conteint2">
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo">promo -5%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo">promo -5%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo">promo -5%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo">promo -5%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo">promo -5%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo pro-new">promo -5%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ----------------- EDITION DIVISION ------------------ -->
+          <div class="Hot">
+            <h2>Edition limité</h2>
+            <div class="article-conteiner2">
+              <div class="grid-conteint2">
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo pro-limit">promo -50%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo pro-limit">promo -50%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo pro-limit">promo -50%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo pro-limit">promo -50%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo pro-limit">promo -50%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-cart2">
+                  <div class="cart-img2">
+                    <img
+                      class="article sakura"
+                      src="./img/article1.png"
+                      alt="article-chemise"
+                    />
+                  </div>
+                  <h3>nom du produit</h3>
+                  <div class="prix">
+                    <h5>prix normal</h5>
+                    <h5>prix reduit</h5>
+                  </div>
+                  <div class="description-cart2">
+                    <div class="des-pop2">
+                      <span class="promo pro-limit">promo -50%</span>
+                      <ion-icon class="heart" name="heart"></ion-icon>
+                      <a class="left" href="#">
+                        Ajouter dans le panier<ion-icon
+                          class="bag"
+                          name="bag-outline"
+                        ></ion-icon>
+                      </a>
+                      <a class="right" href="#"
+                        >Aperçu rapide
+                        <ion-icon class="eye" name="eye-outline"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="more-btn">Charger plus</button>
+          </div>
+        </div>
+      </section>
+      <section id="temoin">
+        <div class="temoin-conteiner">
+          <h2>Avis des clients</h2>
+          <div class="box-temoin">
+            <div class="comment">
+              <div class="comment-txt">
+                <div class="icon4">
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                </div>
+                <p>
+                  J'ai acheté ce bracelet pour ma copine et moi, pour nos 6
+                  mois, reçu rapidement et conforme à la photo, je recommande.
+                </p>
+                <h5>Luis</h5>
+                <span class="statut">Client Waifu Store</span>
+              </div>
+              <div class="comment-img">
+              </div>
+            </div>
+            <div class="comment">
+              <div class="comment-txt n">
+                <div class="icon4">
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                  <i class="fa fa-star star1" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Cet omamori est trop cute, je l'adore. L'expédition a été
+                  rapide et bien protégée. Le produit est conforme aux photos et
+                  très joli.
+                </p>
+                <h5>Jude</h5>
+                <span class="statut">Client Waifu Store</span>
+              </div>
+              <div class="comment-img2">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--------------------------- footer section --------------------- -->
+    <footer>
+      <section id="foot">
+        <div class="info">
+          <div class="about">
+            <h2>ABOUT</h2>
+            <p>
+              Nous vous proposons une sélection de produits de qualité,
+              soigneusement choisis pour répondre à tous vos besoins.Découvrez
+              le meilleur de l'e-commerce avec nous, et faites de chaque achat
+              un plaisir
+            </p>
+            <ul>
+              <li>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"> <ion-icon name="logo-twitter"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+          <div class="link">
+            <h2>LINK</h2>
+            <ul class="group low">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Edition limité</a></li>
+              <li><a href="#">Nouveauté</a></li>
+              <li><a href="">Animé</a></li>
+              <li><a href="">Catégories</a></li>
+            </ul>
+          </div>
+          <div class="open">
+            <h2>OPENING HOUR</h2>
+            <table>
+              <tr>
+                <td>Lun - Ven</td>
+                <td>8am - 17pm</td>
+              </tr>
+              <tr>
+                <td>Sam</td>
+                <td>8am - 10am</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <p class="end">
+          Contact Us © 2024 Waifu store, Inc. All rights reserved. Support Get
+          Involved Stay Updated
+        </p>
+      </section>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
