@@ -33,21 +33,30 @@
               muted
               autoplay
               loop
-            ></video>
-            Waifu Store
+            ></video
+            >Waifu Store
           </h5>
         </div>
         <div class="items">
           <ul class="group">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#product">Products</a></li>
-            <li><a href="#foot">About</a></li>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#product">Produits</a></li>
+            <li><a href="#foot">Contact</a></li>
             <li>
               <button>
                 <ion-icon class="bag" name="bag-handle"></ion-icon>
                 <a class="not" href="./show-room.html"> Shop</a>
               </button>
             </li>
+            <!-- <li class="toogle">
+              <div class="dark-mode">
+                <input type="checkbox" name="switch" id="switch" />
+                <label for="switch">
+                  <ion-icon class="sun" name="sunny"></ion-icon>
+                  <ion-icon class="moon" name="moon"></ion-icon>
+                </label>
+              </div>
+            </li> -->
           </ul>
         </div>
       </section>
@@ -211,7 +220,7 @@
               </div>
             </div>
           </div>
-          <a href="#"
+          <a href="./show-room.html#new"
             >Voir plus
             <i class="fa fa-arrow-right fleche" aria-hidden="true"></i>
           </a>
@@ -262,26 +271,47 @@
               le meilleur de l'e-commerce avec nous, et faites de chaque achat
               un plaisir
             </p>
-            <ul>
-              <li>
-                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-              </li>
-              <li>
-                <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
-              </li>
-              <li>
-                <a href="#"> <ion-icon name="logo-twitter"></ion-icon></a>
-              </li>
-            </ul>
           </div>
           <div class="link">
-            <h2>LINK</h2>
-            <ul class="group">
-              <li><a href="#">Home</a></li>
-              <li><a href="#product">Products</a></li>
-              <li><a href="./show-room.html">Shop</a></li>
-              <li><a href="#foot">Contact</a></li>
-            </ul>
+            <h2>Contactez-nous</h2>
+            <form>
+              <div class="formulaire">
+                <label for="mail">E-mail</label>
+                <input
+                  type="email"
+                  name="Contact"
+                  id="mail"
+                  placeholder="waifu@gmail.com"
+                />
+                <input
+                  type="text"
+                  name="remarque"
+                  id="remarque"
+                  placeholder="Message....."
+                />
+                <button type="submit">Envoyer</button>
+              </div>
+            </form>
+            <div class="linking">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F1382607532328229%2Fpermalink%2F1386307605291555%2F%3Fapp%3Dfbl"
+                    ><ion-icon name="logo-facebook"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/login">
+                    <ion-icon name="logo-linkedin"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://x.com/i/flow/login?lang=fr">
+                    <ion-icon name="logo-twitter"></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="open">
             <h2>OPENING HOUR</h2>
