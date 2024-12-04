@@ -40,11 +40,15 @@
         </div>
         <div class="items">
           <ul class="group">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" data-txt="Hot">Edition limité</a></li>
-            <li><a href="#">Nouveauté</a></li>
-            <li><a href="#">Animé</a></li>
-            <li><a href="#">Catégories</a></li>
+            <li><a href="#solde" data-txt="Hot">Solde</a></li>
+            <li><a href="#new">Nouveauté</a></li>
+            <li>
+              <label for="Animé">Animé</label>
+              <input type="checkbox" name="anime" id="Animé">
+            </li> <li>
+              <label for="categorie">Catégorie</label>
+              <input type="checkbox" name="categorie" id="categorie">
+            </li>
             <li>
               <button id="cart">
                 <span
@@ -55,9 +59,34 @@
                 >Panier
               </button>
             </li>
+            <!-- <li>
+              <div class="dark-mode">
+                  <input type="checkbox"  name="switch" id="switch">
+                  <label for="switch">
+                    <ion-icon class="sun" name="sunny"></ion-icon>
+                    <ion-icon class="moon" name="moon"></ion-icon>
+                  </label>
+             </div>
+           </li> -->
           </ul>
         </div>
       </section>
+      <div class="anime">
+        <ul>
+          <li>Naruto</li>
+          <li>Black Clover</li>
+          <li>Pokémon</li>
+          <li>One piece</li>
+        </ul>
+      </div>
+      <div class="categorie">
+        <ul>
+          <li>Vêtements</li>
+          <li>Accessoires </li>
+          <li>Sac</li>
+          <li>Chaussures</li>
+        </ul>
+      </div>
     </header>
     <!---------------- section Home ------------------->
     <main>
@@ -73,7 +102,6 @@
         />
         <ion-icon class="search delete" name="close-outline"></ion-icon>
       </div>
-
       <section id="product" class="conteiner">
         <div class="best-product">
           <div class="our-product">
@@ -82,22 +110,18 @@
             </div>
           </div>
           <!-- ------------- NOUVEAUTE DIVISION --------------------- -->
+           <section id="new">
           <div class="new">
             <h2>Nouveauté</h2>
             <div class="article-conteiner2">
               <div class="grid-conteint2">
-                <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                <div class="article-cart2 ">
+                  <div class="cart-img2 img1">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Momo Ayase Uniforme Rose Cosplay Costume</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>$45.00</h5>
+                    <h5>$22,00</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -117,17 +141,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img5">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Bracelet tressé bouddhiste</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>13,95</h5>
+                    <h5>€12,95</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -147,17 +166,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img4">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Baskets Jordan Naruto Chaussures</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>$92,99</h5>
+                    <h5>$90,00</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -177,17 +191,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img3">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Bracelet Japonais Porte-Bonheur (Fortune)</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>€16,25</h5>
+                    <h5>€14,75</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -207,17 +216,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img6">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Kimono Japonais Tokyo Revengers Haor</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>30$</h5>
+                    <h5>28$</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -237,17 +241,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img2">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Porte-clés Neko-Yin-Yang (Argent/Noir)</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>12,00$</h5>
+                    <h5>11,40$</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -269,23 +268,20 @@
               </div>
             </div>
           </div>
+          </section>
           <!-- ----------------- EDITION DIVISION ------------------ -->
+           <section id="solde">
           <div class="Hot">
             <h2>Edition limité</h2>
             <div class="article-conteiner2">
               <div class="grid-conteint2">
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img7">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Sangle smartphone - Maneki Neko Aoi (Bleu)</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>13,45 $</h5>
+                    <h5>6,75 $</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -305,17 +301,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img8">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Pull tricoté vintage Gengar</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>65,00 $</h5>
+                    <h5>32,45 $</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -335,17 +326,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img9">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Touches à thème Chopper108 touches</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>100$</h5>
+                    <h5>50$</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -365,17 +351,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img10">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Coque Samsung Attaque des Titans Anime</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>30$</h5>
+                    <h5>15$</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -395,17 +376,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img11">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Gojo Satoru (Jujutsu Kaisen) Lunettes noires</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>20$</h5>
+                    <h5>11$</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -425,17 +401,12 @@
                   </div>
                 </div>
                 <div class="article-cart2">
-                  <div class="cart-img2">
-                    <img
-                      class="article sakura"
-                      src="./img/article1.png"
-                      alt="article-chemise"
-                    />
+                  <div class="cart-img2 img12">
                   </div>
-                  <h3>nom du produit</h3>
+                  <h3>Sac à main Slam Dunk</h3>
                   <div class="prix">
-                    <h5>prix normal</h5>
-                    <h5>prix reduit</h5>
+                    <h5>54.99</h5>
+                    <h5>27.50</h5>
                   </div>
                   <div class="description-cart2">
                     <div class="des-pop2">
@@ -456,9 +427,9 @@
                 </div>
               </div>
             </div>
-
             <button class="more-btn">Charger plus</button>
           </div>
+        </section>
         </div>
       </section>
       <section id="temoin">
@@ -519,27 +490,47 @@
               le meilleur de l'e-commerce avec nous, et faites de chaque achat
               un plaisir
             </p>
-            <ul>
-              <li>
-                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-              </li>
-              <li>
-                <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
-              </li>
-              <li>
-                <a href="#"> <ion-icon name="logo-twitter"></ion-icon></a>
-              </li>
-            </ul>
           </div>
           <div class="link">
-            <h2>LINK</h2>
-            <ul class="group low">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Edition limité</a></li>
-              <li><a href="#">Nouveauté</a></li>
-              <li><a href="">Animé</a></li>
-              <li><a href="">Catégories</a></li>
-            </ul>
+            <h2>Contactez-nous</h2>
+            <form>
+              <div class="formulaire">
+                <label for="mail">E-mail</label>
+                <input
+                  type="email"
+                  name="Contact"
+                  id="mail"
+                  placeholder="waifu@gmail.com"
+                />
+                <input
+                  type="text"
+                  name="remarque"
+                  id="remarque"
+                  placeholder="Message....."
+                />
+                <button type="submit">Envoyer</button>
+              </div>
+            </form>
+            <div class="linking">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F1382607532328229%2Fpermalink%2F1386307605291555%2F%3Fapp%3Dfbl"
+                    ><ion-icon name="logo-facebook"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/login">
+                    <ion-icon name="logo-linkedin"></ion-icon
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://x.com/i/flow/login?lang=fr">
+                    <ion-icon name="logo-twitter"></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="open">
             <h2>OPENING HOUR</h2>
